@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bottomNuv{
+            width: 864px;
+            height: 70px;
+            border: 1px solid ;
+            margin: auto;
+            display: flex;
+
+            
+        }
+       .bottomNuv .leftBox{
+        width: 180px;
+        height: 70px;
+        margin-left: 30px;
+        border: 1px solid #000;
+        
+        }
+        .bottomNuv .leftBox .icn{
+            width:40px ;
+            height: 30px;
+            border: 1px solid #000;
+            background: red;
+            float: left;
+            
+        }
+        /* .bottomNuv .leftBox .icn svg{
+            margin: 0;
+        } */
+        .clr{
+            clear: both;
+        }
+        .bottomNuv .leftBox .num {
+            width: 100px;
+            height: 30px;
+            border: 1px solid #000;
+            float: right;
+
+        }
+        .bottomNuv .leftBox .littleNum{
+            width: 180px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid #000;
+            
+        }
+       
+        .bottomNuv .leftBox .num h3,  .bottomNuv .centerBox  h3, .bottomNuv .leftBox .littleNum p,  .bottomNuv .centerBox  p{
+            margin: 0;
+        }
+        /* .bottomNuv .leftBox .icn .out{
+            position: relative;
+            width:40px ;
+            top: 1;
+            left:1
+        }
+        .bottomNuv .leftBox .icn .out .in{
+            position: absolute;
+            width:10px ;
+            top: 5px;
+            left:5px;
+        }
+        .bottomNuv .leftBox .icn .out svg{
+            width:40px ;
+            height: 30px;
+        } */
+        .bottomNuv .centerBox{
+        width: 150px;
+        height: 70px;
+        margin-left: 50px;
+        border: 1px solid #000;
+        }
+        .bottomNuv .rightBox{
+        width: 100px;
+        height: 70px;
+        margin-left: 50px;
+        border: 1px solid #000;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="bottomNuv">
+        <div class="leftBox">
+            <div class="clr"></div>
+            <div class="icn">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 21" class="tcl-badge-speedometer__outer-circle" fill="var(--tds-theme-foreground-high-contrast)">
+                    <path d="M 39.999999,19.798617 A 19.824417,19.633985 0 0 0 34.877782,6.6213841 L 34.16909,5.8402141 C 26.397915,-1.9017959 13.745528,-1.9531229 5.9107311,5.7258771 A 19.91037,19.719113 0 0 0 1.8907042e-4,19.833252 V 21 H 3.9064221 V 19.833252 H 2.3727481 A 17.490621,17.322608 0 0 1 6.8692771,8.2425621 l 1.181013,1.060755 0.778213,-0.874643 -1.18017,-1.038221 A 17.570675,17.401893 0 0 1 19.4513,2.4230131 v 2.227086 h 1.180592 v -2.273822 a 17.589214,17.420254 0 0 1 11.802124,5.002908 l -1.179328,0.991068 0.778213,0.874643 1.180171,-1.014019 a 17.484722,17.316765 0 0 1 4.461979,11.5447899 h -1.582128 v 1.165911 h 3.907076 z"></path>
+                  </svg>
+                  <div class="clr"></div>
+            </div>
+           
+            <div class="num">
+                <h3>3.1s </h3>
+                
+            </div>
+            <div class="clr"></div>
+            <div class="littleNum">
+                <p>0-60 mph*</p>
+            </div>
+        </div>
+        <div class="centerBox">
+            <h3>358 mi</h3>
+            <p>Range (EPA est.)</p>
+        </div>
+        <div class="rightBox"></div>
+        <div class="box"><button></button></div>
+
+    </div>
+</body>
+</html>

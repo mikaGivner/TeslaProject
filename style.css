@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600;700&family=Roboto:ital,wght@1,100&display=swap');@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 500px; */
+   
+    
+}
+
+
+.first{
+    width: 1280px;
+    height: 577px;
+    /* border: 1px solid #000; */
+    margin:auto;
+    background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD) no-repeat center center/cover ;
+}
+.nav{
+    height: 56px;
+    /* border: 1px solid #000; */
+    width: 1280px;
+    position: sticky;
+    
+
+}
+.clr{
+    clear: both;
+}
+.logo{
+    width: 300px;
+    border: 1px solid #000;
+    float: left;
+    height: 56px;
+    padding: 12px;
+    
+   
+}
+.first .nav .logo svg{
+    width: 120px;
+    height:24px ;
+    margin-left: 30px;
+   
+}
+ .nav-center{
+    height: 56px;
+    width: 600px;
+    border: 1px solid #000;
+    position: absolute;
+    display: inline;
+    margin:auto ;
+    padding-top: 12px;
+}
+.nav-center ul{
+
+    float:right;
+    display: flex;
+    list-style: none;
+}
+.nav-center ul li,.nav-left ul li{
+    /* border: 1px solid #000; */
+    padding:6px 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.nav-center ul li a,.nav-left ul li a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.nav-left{
+    width: 414px;
+    /* border: 1px solid #000; */
+    float: right;
+    height: 56px;
+    padding-top: 12px;
+}
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    margin-left:150px;
+  
+}
+.modle,.sce{
+  
+    width: 1280px;
+    color: #ffffff;
+    text-align: center;
+   
+
+}
+.modle{
+    margin-top:33px ;
+    font-size: 30px;
+   padding-bottom:0 ;
+}
+
+.sce p a{
+    text-decoration:none;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+   
+}
+.sce p a:hover{
+    
+    text-decoration-thickness: 4px;
+     
+}
+.bottomNuv{
+    margin-top: 400px;
+}
+.bottomNuv .centerBox{
+    width: 150px;
+    height: 70px;
+    margin-left: 50px;
+    border: 1px solid #000;
+    }
+    .bottomNuv .rightBox{
+    width: 100px;
+    height: 70px;
+    margin-left: 50px;
+    border: 1px solid #000;
+    }
+    .bottomNuv .leftBox .num {
+        width: 100px;
+        height: 30px;
+        border: 1px solid #000;
+        float: right;
+
+    }
+    .bottomNuv .leftBox .littleNum{
+        width: 180px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid #000;
+        
+    }
+   
+    .bottomNuv .leftBox .num h3,  .bottomNuv .centerBox  h3, .bottomNuv .leftBox .littleNum p,  .bottomNuv .centerBox  p{
+        margin: 0;
+    }
+    .bottomNuv{
+        width: 864px;
+        height: 70px;
+        border: 1px solid ;
+        margin: auto;
+        display: flex;
+
+        
+    }
+   .bottomNuv .leftBox{
+    width: 180px;
+    height: 70px;
+    margin-left: 30px;
+    border: 1px solid #000;
+    
+    }
+    .bottomNuv .leftBox .icn{
+        width:40px ;
+        height: 30px;
+        border: 1px solid #000;
+        background: red;
+        float: left;
+        
+    }
