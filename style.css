@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600;700&family=Roboto:ital,wght@1,100&display=swap');@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Blinker:wght@600&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Noto Sans', sans-serif; */
     /* font-weight: 500px; */
+    font-family: 'Blinker';
    
-    
 }
-
 
 .first{
-    width: 1280px;
-    height: 577px;
-    /* border: 1px solid #000; */
+    width: 1662px;
+    height: 770px;
     margin:auto;
     background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD) no-repeat center center/cover ;
+   
 }
+
 .nav{
     height: 56px;
-    /* border: 1px solid #000; */
-    width: 1280px;
+    width: 1662px;
     position: sticky;
+    
     
 
 }
@@ -31,9 +32,8 @@ body{
     clear: both;
 }
 .logo{
-    width: 300px;
-    border: 1px solid #000;
-    float: left;
+    width: 545px;
+     float: left;
     height: 56px;
     padding: 12px;
     
@@ -48,24 +48,24 @@ body{
  .nav-center{
     height: 56px;
     width: 600px;
-    border: 1px solid #000;
     position: absolute;
     display: inline;
     margin:auto ;
     padding-top: 12px;
 }
 .nav-center ul{
-
+    
     float:right;
     display: flex;
     list-style: none;
 }
 .nav-center ul li,.nav-left ul li{
+    font-size: 17px;
     /* border: 1px solid #000; */
     padding:6px 5px;
     width: 100px;
     text-align: center;
-    font-size: 15px;
+   
 
 }
 .nav-center ul li a,.nav-left ul li a{
@@ -83,26 +83,32 @@ body{
     display: flex;
     list-style: none;
     margin-left:150px;
-  
+    
+}
+.nav-left ul li:hover{
+    background: #757575;
+}
+.nav-center ul li:hover{
+    background: #171a20;
 }
 .modle,.sce{
-  
-    width: 1280px;
+     
+    width: 1662px;
     color: #ffffff;
     text-align: center;
-   
-
+    
 }
 .modle{
-    margin-top:33px ;
-    font-size: 30px;
+    margin-top:67px ;
+    font-size: 35px;
    padding-bottom:0 ;
 }
+
 
 .sce p a{
     text-decoration:none;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration:underline;
     text-decoration-thickness: 2px;
    
@@ -112,43 +118,77 @@ body{
     text-decoration-thickness: 4px;
      
 }
-.bottomNuv{
+.first .bottomNuv{
+    margin-top: 600px;
+    
+}
+.third .bottomNuv{
     margin-top: 400px;
+    
 }
 .bottomNuv .centerBox{
     width: 150px;
     height: 70px;
     margin-left: 50px;
-    border: 1px solid #000;
+   
     }
     .bottomNuv .rightBox{
-    width: 100px;
+    width: 75px;
     height: 70px;
     margin-left: 50px;
-    border: 1px solid #000;
-    }
-    .bottomNuv .leftBox .num {
-        width: 100px;
-        height: 30px;
-        border: 1px solid #000;
-        float: right;
+  
+}
+.bottomNuv .rightBox .aw, .bottomNuv .centerBox .tf,  .bottomNuv .leftBox .num .to{
+    color: #ffffff;
+    font-size: 35px;
+    width: 75px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.bottomNuv .centerBox .tf{
+    width: 87px;
+    font-size: 35px;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.bottomNuv .leftBox .num .to{
+    float: right;
+    width: 100px;
+    height: 30px;
+     padding: 0;
+     font-size: 35px;
+    
+    
+}
 
-    }
-    .bottomNuv .leftBox .littleNum{
-        width: 180px;
-        height: 30px;
+
+
+
+.bottomNuv .centerBox .tf .m,.bottomNuv .leftBox .num .to .s{
+    font-size: 30px;
+  
+}
+.bottomNuv .rightBox .du, .bottomNuv .centerBox .ra, .bottomNuv .leftBox .mp {
+  
+    color: #ffffff;
         text-align: center;
-        border: 1px solid #000;
-        
+        font-size: 14px;
+        width: 70px;
+        margin: auto;
     }
-   
-    .bottomNuv .leftBox .num h3,  .bottomNuv .centerBox  h3, .bottomNuv .leftBox .littleNum p,  .bottomNuv .centerBox  p{
-        margin: 0;
+    .bottomNuv .centerBox .ra{
+        width: 107px;
     }
+    .bottomNuv .leftBox .mp{
+        width: 100px;
+      
+        margin-top: 12px;
+    }
+ 
     .bottomNuv{
         width: 864px;
         height: 70px;
-        border: 1px solid ;
+       
         margin: auto;
         display: flex;
 
@@ -158,10 +198,325 @@ body{
     width: 180px;
     height: 70px;
     margin-left: 30px;
+    
+    
+    
+    }
+    .bottomNuv .leftBox .top-left{
+        display: flex;
+    }
+    .bottomNuv .leftBox .icn{
+        width:50px ;
+        height: 30px;
+        position: relative;
+    }
+    .bottomNuv .leftBox .icn #fs{
+        width:50px ;
+        height: 30px;
+        float: left;
+        position:absolute;
+        top: 5px;
+        left:0;
+        
+    }
+    .bottomNuv .leftBox .icn #ses{
+        width:40px ;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        left:6px;
+        z-index: 1;
+       
+        
+    }
+    .bottomNuv .leftBox .icn #svt{
+        width:40px ;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        left:6px;
+        z-index: 2;
+    }
+    /* .bottomNuv .box{
+        width: 200px;
+        border: 1px solid #000;
+        height: 70px;
+        margin-left: 30px;
+    } */
+    .bottomNuv .btn{
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+        width: 204px;
+        padding: 5px 27px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 17px;
+    }
+    .bottomNuv .btn:hover{
+        background: #ffffff;
+        color: #000;
+    }
+    /* .. */
+  .first .btnRIGHT{
+    position:fixed;
+    top:678px;
+    left:1576px;
+    border: 1px solid #000;
+    
+  }
+  .secound{
+    width: 1662px;
+    height: 820px;
+    /* border: 1px solid #000; */
+    margin:auto;
+    padding-top: 50px;
+    display: flex;
+   
+}
+.secound .sec-img{
+    width: 1291px;
+    height: 770px;
+    background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/ea753653-02a2-4206-aac5-82a33a0a245d/bvlatuR/std/2880x1800/model-3-hero-a-desktop) no-repeat center center/cover ;
+
+}
+.secound .sec-info{
+    width: 416px;
+    height: 770px;
+    padding: 48px 40px;
+   
+}
+
+
+.secound .sec-info .top-sec{
+    /* width: 215px; */
+    height: 60px;
+     margin-bottom: 8px;
+
+}
+.secound .sec-info .top-sec h4{
+    font-size: 24px;
+}
+.secound .sec-info .top-sec h2{
+    font-size: 36px;
+}
+.secound .sec-info .center-sec{
+    height: 272px;
+    width: 336px;
+    padding: 16px 0;
+   font-size: 17px;
+    line-height: 1.6em;
+    margin-bottom: 16px;
+   
+    
+}
+.secound .sec-info .center-sec .fra{
+    font-size: 20px;
+}
+.secound .sec-info .center-sec a{
+    text-decoration: none;
+    color: #000;
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+
+}
+.secound .sec-info .center-sec a:hover{
+    text-decoration-thickness: 3px;
+}
+
+.secound .sec-info .bottom-sec{
+    height:318px;
+    width: 336px;
+    display: flex;
+   padding-top: 278px;
+ 
+}
+
+
+
+.third{
+    height: 770px;
+    width: 1662px;
+   
+}
+
+.third .img-trd{
+height: 550px;
+width: 100%;
+border: 1px solid #ffffff;
+background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD) no-repeat center center/cover;
+width: 1662px;
+margin-bottom: 20px;
+}
+/* .third .bottom-trd{
+    height: 220px;
+width: 100%;
+ border: 1px solid #000;
+} */
+
+
+
+.third .info-third{
+    height: 220px;
+    width: 100%;
+    padding-top: 24px;
+}
+.third .info-third .info{
+    width: 1440px;
+    height: 156px;
+    margin:auto;
+    display: flex;
+    
+}
+.third .info-third .info .quick{
+    width: 432px;
+    height: 100%;
+    margin: auto;
+   
+}
+.third .info-third .info .in{
+    width: 800px;
+    height: 100%;
+    padding-right: 200px;
+    font-weight: 1.6em;
+    font-size: 17px;
+    
+   
+}
+
+.third .top-sec{
+    /* width: 215px; */
+    height: 60px;
+     margin-bottom: 8px;
+
+}
+.third .top-sec h4{
+    font-size: 24px;
+}
+.third .top-sec h2{
+    font-size: 36px;
+}
+
+.third  .bottom-sec{
+    height:318px;
+    width: 336px;
+    display: flex;
+   /* padding-top: 278px; */
+ 
+}
+
+
+/* .info-third .info .quick */
+
+
+/* third */
+.third  .bottom-sec .bol{
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 204px;
+    padding: 5px 27px;
+    height: 40px;
+   
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+}
+.third .bottom-sec .bol:hover{
+    background: #000;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.third  .bottom-sec .bor{
+    border: none;
+    width: 200px;
+    padding: 0;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #757575;
+    
+    display: flex;
+    
+}
+.third  .bottom-sec .bor .bor-r{
+    width: 70%;
+ 
+    padding-top: 7px;
+    font-size: 17px;
+}
+.third .bottom-sec .bor .bor-l{
+    width: 30%;
+    border:3px solid #000;
+    border-radius: 500px;
+    padding: 30px;
+    /* margin: 3px; */
+}
+.third  .bottom-sec .bor .bor-l:hover{
+    background: #000;
+}
+
+/* third */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .first .bottomPls .leftBox .num h3 {
+        font-size: 28px;
+        text-align: center;
+    }
+    /* .first .bottomNuv .leftBox .num h3 {
+        font-size: 28px;
+        text-align: center;
+    } */
+    .first .bottomPls .leftBox .num h3 .l{
+    font-size:24px}
+    /* 12px */
+
+ 
+    .bottomPls .leftBox{
+    width: 180px;
+    height: 70px;
+    margin-left: 30px;
     border: 1px solid #000;
     
     }
-    .bottomNuv .leftBox .icn{
+    .bottomPls .leftBox .icn{
         width:40px ;
         height: 30px;
         border: 1px solid #000;
@@ -169,3 +524,226 @@ body{
         float: left;
         
     }
+    .bottomPls .box{
+        width: 200px;
+       
+        height: 70px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .secound .sec-info .bottom-sec .bol{
+        border: 3px solid #000;
+        border-radius: 5px;
+        width: 204px;
+        padding: 5px 27px;
+        height: 40px;
+       
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-size: 17px;
+    }
+    .secound .sec-info .bottom-sec .bol:hover{
+        background: #000;
+        color: #ffffff;
+    }
+
+    
+
+
+
+
+    .secound .sec-info .bottom-sec .bor{
+        border: none;
+        width: 200px;
+        padding: 0;
+        height: 40px;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #757575;
+        
+        display: flex;
+        
+    }
+    .secound .sec-info .bottom-sec .bor .bor-r{
+        width: 70%;
+     
+        padding-top: 7px;
+        font-size: 17px;
+    }
+    .secound .sec-info .bottom-sec .bor .bor-l{
+        width: 30%;
+        border:3px solid #000;
+        border-radius: 500px;
+        padding: 30px;
+        /* margin: 3px; */
+    }
+    .secound .sec-info .bottom-sec .bor .bor-l:hover{
+        background: #000;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* t */
+/* i */
+/* s */
+
+/* .trdNuv .centerBox{
+    width: 150px;
+    height: 70px;
+    margin-left: 50px;
+   
+    }
+    .trdNuv .rightBox{
+    width: 75px;
+    height: 70px;
+    margin-left: 50px;
+  
+}
+.trdNuv .rightBox .aw, .trdNuv .centerBox .tf,  .trdNuv .leftBox .num .to{
+    color: #ffffff;
+    font-size: 35px;
+    width: 75px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+.trdNuv .centerBox .tf{
+    width: 87px;
+    font-size: 35px;
+    margin: auto;
+    margin-bottom: 7px;
+}
+.trdNuv .leftBox .num .to{
+    float: right;
+    width: 100px;
+    height: 30px;
+     padding: 0;
+     font-size: 35px;
+    
+    
+}
+
+
+
+
+.trdNuv .centerBox .tf .m,.bottomNuv .leftBox .num .to .s{
+    font-size: 30px;
+  
+}
+.trdNuv .rightBox .du, .bottomNuv .centerBox .ra, .bottomNuv .leftBox .mp {
+  
+    color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+        width: 70px;
+        margin: auto;
+    }
+    .trdNuv .centerBox .ra{
+        width: 107px;
+    }
+    .trdNuv .leftBox .mp{
+        width: 100px;
+      
+        margin-top: 12px;
+    }
+ 
+    .trdNuv{
+        width: 864px;
+        height: 70px;
+       
+        margin: auto;
+        display: flex;
+
+        
+    }
+   .trdNuv .leftBox{
+    width: 180px;
+    height: 70px;
+    margin-left: 30px;
+    
+    
+    
+    }
+    .trdNuv .leftBox .top-left{
+        display: flex;
+    }
+    .trdNuv .leftBox .icn{
+        width:50px ;
+        height: 30px;
+        position: relative;
+    }
+    .trdNuv .leftBox .icn #fs{
+        width:50px ;
+        height: 30px;
+        float: left;
+        position:absolute;
+        top: 5px;
+        left:0;
+        
+    }
+    .trdNuv .leftBox .icn #ses{
+        width:40px ;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        left:6px;
+        z-index: 1;
+       
+        
+    }
+    .trdNuv .leftBox .icn #svt{
+        width:40px ;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        left:6px;
+        z-index: 2;
+    }
+    /* .bottomNuv .box{
+        width: 200px;
+        border: 1px solid #000;
+        height: 70px;
+        margin-left: 30px;
+    } */
+    .trdNuv .btn{
+        border: 3px solid #ffffff;
+        border-radius: 5px;
+        width: 204px;
+        padding: 5px 27px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 17px;
+    }
+    .trdNuv .btn:hover{
+        background: #ffffff;
+        color: #000;
+    } 
