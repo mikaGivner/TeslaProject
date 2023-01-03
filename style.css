@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600;700&family=Roboto:ital,wght@1,100&display=swap');@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600;700&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Blinker:wght@600&family=Noto+Sans:wght@100;500;600&family=Roboto:ital,wght@1,100&display=swap');
 *{
     margin: 0;
@@ -19,6 +20,30 @@ body{
     background: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD) no-repeat center center/cover ;
    
 }
+.first  .fa-regular{
+    position: fixed;
+    top:678px;
+    left:1576px;
+    /* border: 1px solid #333; */
+    padding: 18px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 5px 5px 20px #757575;
+    
+    
+
+}
+
+
+/* .first .btnRIGHT{
+    position:fixed;
+    top:678px;
+    left:1576px;
+    border: 1px solid #000;
+    
+  } */
 
 .nav{
     height: 56px;
@@ -119,7 +144,7 @@ body{
      
 }
 .first .bottomNuv{
-    margin-top: 600px;
+    margin-top: 550px;
     
 }
  
@@ -264,13 +289,7 @@ body{
         color: #000;
     }
     /* .. */
-  .first .btnRIGHT{
-    position:fixed;
-    top:678px;
-    left:1576px;
-    border: 1px solid #000;
-    
-  }
+  
   .secound{
     width: 1662px;
     height: 820px;
@@ -1161,7 +1180,20 @@ width: 100%;
         }
         .first .sideNav ul li .sl{
             color: #ffffff61;
+            
         }
+       
         .first .sideNav ul li a:hover{
             color: #ffffff61;
         }
+        .first .sideNav ul li .sl  .more:hover{
+           display: inline;
+        }
+
+        @keyframes example {
+            0%   { top:730px;}
+            25%  { top:740px;}
+            50%  { top:730px;}
+            100%  {  top:740px;}
+           
+          }
